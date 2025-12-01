@@ -1,0 +1,13 @@
+{
+  "name": "restaurante",
+  "version": "1.0.0",
+  "main": "dist/test.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/test.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
