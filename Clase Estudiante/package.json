@@ -1,0 +1,14 @@
+{
+  "name": "gestion-calificaciones",
+  "version": "1.0.0",
+  "description": "Sistema para manejar el rendimiento de un estudiante",
+  "main": "dist/test.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/test.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {}
+}
