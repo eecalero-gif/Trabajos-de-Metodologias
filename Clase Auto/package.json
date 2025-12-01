@@ -1,0 +1,17 @@
+{
+  "name": "mi-auto",
+  "version": "1.0.0",
+  "description": "Simulador de comportamiento básico de un auto.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node test.ts",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "ts-node": "^10.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
