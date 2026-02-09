@@ -1,0 +1,28 @@
+# Laboratorio 1 — Producto de todos excepto el actual
+
+## Enunciado
+Dada una lista de números, generar una nueva lista donde cada posición `i`
+contenga el producto de todos los números **excepto** el número que está en `i`.
+
+Ejemplo:
+- Entrada: [1,2,3,4]
+- Salida:  [24,12,8,6]
+
+## Requisitos
+1. Validar que la lista contenga **solo números**.
+2. Calcular el resultado con:
+   - Método A: **Brute force** (doble bucle)
+   - Método B: **Optimizado** (prefijos y sufijos, O(n))
+
+## Pistas
+- Evita usar división (con ceros falla).
+- El método optimizado usa:
+  - prefijos: producto de todos a la izquierda
+  - sufijos: producto de todos a la derecha
+
+## Entregable
+- Código en `index.ts`
+- subir en una nueva rama en el mismo repositorio de github
+
+
+utilizar el comando "npm run validate1" para comporbar
